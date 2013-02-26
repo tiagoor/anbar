@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titvlo_inicial">Login</string>
+    <string name="titvlo_inicial2">Login</string>
+    <string name="penetrar">Penetrar</string>
+
+</resources>
