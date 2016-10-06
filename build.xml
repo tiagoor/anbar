@@ -53,7 +53,7 @@
     <mkdir dir="${install}"/>
   </target>
   
-  <target name="teste">
+  <target name="test">
     <!-- Create the time stamp -->
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
