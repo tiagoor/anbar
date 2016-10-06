@@ -7,6 +7,8 @@
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
   <property name="debug" location="debvg"/>
+  <property name="install" location="install"/>
+  <property name="test" location="test"/>
 
   <target name="init">
     <!-- Create the time stamp -->
@@ -42,5 +44,19 @@
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
     <mkdir dir="${debvg}"/>
-  </target>  
+  </target>
+  
+  <target name="install">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${install}"/>
+  </target>
+  
+  <target name="teste">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${test}"/>
+  </target>
 </project>
